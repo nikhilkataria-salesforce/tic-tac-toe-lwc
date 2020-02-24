@@ -10,7 +10,8 @@
     margin-bottom: 10px;
 }
 
-ol, ul {
+ol,
+ul {
     background-color: aqua;
     padding-left: 0%;
 }

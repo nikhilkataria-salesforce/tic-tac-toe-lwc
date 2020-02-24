@@ -1,14 +1,15 @@
 <template>
     <div class="game">
         <div class="game-board">
-          <my-board
-            squares={squares}
-            onboardsquareclick={handleBoardSquareClick}
-          > </my-board>
+            <my-board
+                squares={squares}
+                onboardsquareclick={handleBoardSquareClick}
+            >
+            </my-board>
         </div>
         <div class="game-info">
-          <div>Status: {status}</div>
-          <!-- <ol>Moves</ol> TODO: Replace with Moves Component which is a list of buttons for each state in history -->
+            <div>Status: {status}</div>
+            <!-- <ol>Moves</ol> TODO: Replace with Moves Component which is a list of buttons for each state in history -->
         </div>
     </div>
 </template>

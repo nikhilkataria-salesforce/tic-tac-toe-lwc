@@ -1,6 +1,6 @@
 import { LightningElement, api, track } from 'lwc';
 
-export default class Board extends LightningElement {    
+export default class Board extends LightningElement {
     @track
     _squares = [];
 
@@ -12,9 +12,9 @@ export default class Board extends LightningElement {
         let i = 0;
         this._squares = [];
         val.forEach(square => {
-            this._squares.push({key: i, value: square});
+            this._squares.push({ key: i, value: square });
             i++;
-        }) 
+        });
     }
     handleSquareClick(e) {
         e.preventDefault();
