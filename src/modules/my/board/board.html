@@ -1,7 +1,6 @@
 <template>
     <div class="board-container">
         <template for:each={squares} for:item="square">
-            <!-- <li key={square.key}> -->
             <my-square
                 key={square.key}
                 class="board-square"
@@ -10,7 +9,6 @@
                 onclick={handleSquareClick}
             >
             </my-square>
-            <!-- </li> -->
         </template>
     </div>
 </template>
