@@ -17,7 +17,6 @@ The source files are located in the [`src`](./src) folder. All web components ar
 Created using create-lwc-app tool.
 Find more information on the above tool. [GitHub](https://github.com/muenzpraeger/create-lwc-app).
 
-##TODO
-
-[] Add Jest tests for existing components
-[] Add Travel history
+## TODO
+- [ ] Add Jest tests for existing components
+- [ ] Add Travel history
